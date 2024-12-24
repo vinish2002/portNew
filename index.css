@@ -83,11 +83,13 @@ body {
 .header {
   position: fixed;
   width: 100%;
+  /* width: 95%; */
   z-index: 1000;
   border-bottom: 1px solid #ffffff8d;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-
+  /* margin: 10px 2% 0 2%;
+  border-radius: 30px; */
   backdrop-filter: blur(10px);
   z-index: 10;
 }
@@ -375,6 +377,7 @@ textarea {
   position: relative;
   color: #fff;
   font-family: "Audiowide", sans-serif;
+  filter: drop-shadow(0 0 10px rgba(255, 253, 239, 0.796));
 }
 
 @media only screen and (max-width: 37.5em) {
