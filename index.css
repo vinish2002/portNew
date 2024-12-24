@@ -911,8 +911,6 @@ textarea {
 .project-content {
   border-radius: 10px;
   padding: 25px;
-
-  /* background-color: transparent; */
   background-color: rgba(186, 179, 255, 0.102);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid rgb(160, 160, 160);
@@ -1324,16 +1322,4 @@ textarea {
   .main-footer__lower {
     padding: 3.5rem 0;
   }
-}
-
-/*------------------Dark-mode Styling----------------------*/
-.toggle-theme {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: #f0f0f0;
 }
