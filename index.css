@@ -1200,22 +1200,7 @@ textarea {
   font-size: 2.5em;
   color: #000;
   width: 100%;
-}
-
-@media only screen and (max-width: 56.25em) {
-  .card {
-    align-items: end;
-    justify-content: end;
-  }
-
-  .card:hover .card-details {
-    padding: 10px;
-    text-align: center;
-  }
-
-  .cards .card p.second-text {
-    font-size: 1.5em;
-  }
+  padding: 10px;
 }
 
 
@@ -1245,6 +1230,11 @@ textarea {
     font-size: 1.3rem;
     backdrop-filter: blur(10px);
     transition: 400ms;
+  }
+
+  .cards .card p.second-text {
+    font-size: 1.5em;
+    padding: 5px;
   }
 
 }
