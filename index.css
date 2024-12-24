@@ -88,6 +88,8 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 
+  /* box-shadow: 0 5px 10px rgba(153, 153, 153, 0.667); */
+  /* filter: drop-shadow(0 0 10px rgba(255, 253, 239, 0.796)); */
   backdrop-filter: blur(10px);
   z-index: 10;
 }
