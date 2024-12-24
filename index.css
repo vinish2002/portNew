@@ -1090,10 +1090,6 @@ textarea {
 
 /*********************Education Section*********************/
 .education {
-  /* background: linear-gradient(to right,
-      rgba(0, 0, 0, 0.34),
-      rgba(0, 0, 0, 0.34)); */
-
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -1112,62 +1108,59 @@ textarea {
   justify-content: space-around;
 }
 
-.cards .green {
+.graduation {
   border-radius: 1rem;
-  background-color: #4158d0;
-  background-image: linear-gradient(43deg,
-      #ee5454 0%,
-      #2130d3 46%,
-      #3890fc 100%);
-}
-
-.cards .green:hover {
   background: url("./assets/png/svec.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.cards .blue {
+.inter {
   border-radius: 1rem;
-  background-color: #4158d0;
-  background-image: linear-gradient(43deg,
-      #43d041 0%,
-      #50b0c8 46%,
-      #ff7079 100%);
+  background: url("./assets/img/inter.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.cards .blue:hover {
-  background: url("./assets/img/inter.jpg") no-repeat center center;
-}
-
-.cards .red {
+.school {
   border-radius: 1rem;
-  background-color: #4158d0;
-  background-image: linear-gradient(43deg,
-      #4158d0 0%,
-      #c850c0 46%,
-      #ffcc70 100%);
+  background: url("./assets/img/school.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.cards .red:hover {
-  background: url("./assets/img/school.jpg") no-repeat center center;
-}
-
-.cards .card {
+.card {
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: end;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   height: 300px;
   width: 500px;
   border-radius: 10px;
   color: white;
   cursor: pointer;
-  transition: 400ms;
+  /* transition: 400ms; */
+  box-shadow: 0 0 0 5px #484848;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .card-header {
   padding: 20px;
   text-align: center;
+  padding-top: 20%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
 .card:hover .card-header {
@@ -1175,16 +1168,19 @@ textarea {
 }
 
 .card-details {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  padding: 0;
+  /* max-height: 0; */
+  /* overflow: hidden; */
+  /* transition: max-height 0.3s ease; */
+  /* padding: 0; */
+
+  transform: rotateX(-90deg);
 }
 
 .card:hover .card-details {
-  padding-top: 10px;
+  /* padding-top: 10px;
   max-height: 150px;
-  border-radius: 30px;
+  border-radius: 30px; */
+  transform: rotateX(0deg);
 }
 
 .cards .card p.tip {
@@ -1200,10 +1196,10 @@ textarea {
   color: #000;
   backdrop-filter: blur(20px);
   width: 100%;
-  transition: 400ms;
+  /* transition: 400ms; */
 }
 
-@media only screen and (max-width: 56.25em) {
+/* @media only screen and (max-width: 56.25em) {
   .card {
     align-items: end;
     justify-content: end;
@@ -1217,22 +1213,22 @@ textarea {
   .cards .card p.second-text {
     font-size: 1.5em;
   }
-}
+} */
 
-.cards .card:hover {
+/* .cards .card:hover {
   transform: scale(1.1, 1.1);
-}
+} */
 
-.card:hover {
+/* .card:hover {
   transform: translateY(10px);
-}
+} */
 
 /* .cards:hover>.card:not(:hover) {
   filter: blur(2px);
   transform: scale(0.8, 0.8);
 } */
 
-@media only screen and (max-width: 56.25em) {
+/* @media only screen and (max-width: 56.25em) {
   .cards {
     flex-direction: column;
     align-items: center;
@@ -1272,7 +1268,7 @@ textarea {
     backdrop-filter: blur(10px);
     transition: 400ms;
   }
-}
+} */
 
 /*********************Contact Section*********************/
 
