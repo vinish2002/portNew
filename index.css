@@ -315,6 +315,7 @@ textarea {
   color: #e9e8e8;
   font-weight: 800;
   font-family: "Audiowide", sans-serif;
+  /* filter: drop-shadow(0 0 10px rgb(142, 29, 255)); */
 }
 
 .heading-primary-short {
@@ -343,6 +344,7 @@ textarea {
     color: #e9e8e8;
     font-size: 3rem;
     font-family: "Audiowide", sans-serif;
+    filter: drop-shadow(0 0 10px rgb(142, 29, 255));
   }
 }
 
