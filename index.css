@@ -1149,7 +1149,7 @@ textarea {
 }
 
 .card-header {
-  padding-top: 20%;
+  margin-top: 5%;
   text-align: center;
   justify-content: center;
   text-align: center;
@@ -1190,7 +1190,7 @@ textarea {
   color: #000;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   transition: 400ms;
 }
 
@@ -1239,7 +1239,7 @@ textarea {
 
 }
 
-/*********************Contact Section*********************/
+/*************************************Contact Section*************************************/
 
 .contact {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -1250,7 +1250,6 @@ textarea {
 
 .contact__form-container {
   box-shadow: rgba(255, 255, 255, 0.736) 0px 7px 29px 0px;
-  /* background: #333; */
   background: transparent;
   backdrop-filter: blur(100px);
   padding: 4rem;
@@ -1377,7 +1376,7 @@ textarea {
   }
 }
 
-/*********************Footer Section*********************/
+/*************************************Footer Section*************************************/
 .main-footer {
   background: linear-gradient(to right,
       rgba(0, 0, 0, 0.542),
