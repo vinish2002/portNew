@@ -976,7 +976,6 @@ textarea {
 }
 
 .inter {
-  border-radius: 1rem;
   background: url("./assets/img/inter.jpg");
   background-size: cover;
   background-position: center;
@@ -984,7 +983,6 @@ textarea {
 }
 
 .school {
-  border-radius: 1rem;
   background: url("./assets/img/school.jpg");
   background-size: cover;
   background-position: center;
