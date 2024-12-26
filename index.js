@@ -71,8 +71,6 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 
-//-----------------------------------------------------------------
-
 // const projectsWrapper = document.querySelector('.projects-wrapper');
 // const projects = document.querySelectorAll('.project');
 // const leftButton = document.querySelector('.nav-button.left');
