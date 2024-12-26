@@ -71,35 +71,7 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 
-// const projectsWrapper = document.querySelector('.projects-wrapper');
-// const projects = document.querySelectorAll('.project');
-// const leftButton = document.querySelector('.nav-button.left');
-// const rightButton = document.querySelector('.nav-button.right');
-// let currentIndex = 0;
-// const totalProjects = projects.length;
 
-// function showProject(index) {
-//     projectsWrapper.style.transform = `translateX(-${index * 100}%)`;
-// }
-
-// function nextProject() {
-//     currentIndex = (currentIndex + 1) % totalProjects;
-//     showProject(currentIndex);
-// }
-
-// function prevProject() {
-//     currentIndex = (currentIndex - 1 + totalProjects) % totalProjects;
-//     showProject(currentIndex);
-// }
-
-// leftButton.addEventListener('click', prevProject);
-// rightButton.addEventListener('click', nextProject);
-
-// setInterval(nextProject, 5000);
-
-// window.addEventListener('resize', () => {
-//     showProject(currentIndex);
-// });
 
 
 
