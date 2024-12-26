@@ -68,19 +68,7 @@ headerLogoConatiner.addEventListener('click', () => {
 
 // setInterval(showNext, 3000);
 
-
-
-
-
-
-
-
-
-
-
-
-
-          
+  
           
 //------------------------------------------------------------------
 // const typedElement = document.querySelector(".typed");
