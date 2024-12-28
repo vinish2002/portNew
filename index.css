@@ -79,7 +79,7 @@ body {
   transform: translateY(-50px) scale(0.8);
 }
 
-/*********************Header Styling*********************/
+/*****************************************Header Styling*****************************************/
 .header {
   position: fixed;
   width: 100%;
