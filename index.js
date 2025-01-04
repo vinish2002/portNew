@@ -38,8 +38,3 @@ headerLogoConatiner.addEventListener('click', () => {
 })
 
 
-
-
-
-
-
