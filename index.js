@@ -37,4 +37,3 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = '/'
 })
 
-
