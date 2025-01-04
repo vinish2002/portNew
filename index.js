@@ -40,34 +40,6 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 
-//----Project Scroll----
-
-// const carousel = document.querySelector('.projects-wrapper');
-// const carouselItems = document.querySelectorAll('.project');
-// const prevButton = document.getElementById('prev');
-// const nextButton = document.getElementById('next');
-// let currentIndex = 0;
-// const totalItems = carouselItems.length;
-
-// function updateCarousel() {
-//     carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-// }
-
-// function showNext() {
-//     currentIndex = (currentIndex + 1) % totalItems;
-//     updateCarousel();
-// }
-
-// function showPrev() {
-//     currentIndex = (currentIndex - 1 + totalItems) % totalItems;
-//     updateCarousel();
-// }
-
-// nextButton.addEventListener('click', showNext);
-// prevButton.addEventListener('click', showPrev);
-
-// setInterval(showNext, 3000);
-
 
 
 
