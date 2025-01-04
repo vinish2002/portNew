@@ -68,20 +68,6 @@ headerLogoConatiner.addEventListener('click', () => {
 
 // setInterval(showNext, 3000);
 
-  
-          
-//------------------------------------------------------------------
-// const typedElement = document.querySelector(".typed");
-          
-// if (typedElement) {
-//   const typedStrings = typedElement.getAttribute("data-typed-items").split(",");
-//   new Typed(".typed", {
-//     strings: typedStrings,
-//     loop: true,
-//     typeSpeed: 100,
-//     backSpeed: 50,
-//     backDelay: 2000,
-//   });
-// }
+
 
 
