@@ -34,7 +34,8 @@ Here’s a preview of my portfolio website int desktop mode:
 ![port](https://github.com/user-attachments/assets/502af0bf-7d4c-48dd-909c-747b4faf0ee6)
 
 Here’s a preview of my portfolio website int mobile mode:
-![portM](https://github.com/user-attachments/assets/d48bbc87-fbab-4142-b314-171001a8eb2d)
+![portM](https://github.com/user-attachments/assets/f8d5e0c4-b1e8-4ffe-a4a5-e73fa066a0d4)
+
 
 
 
