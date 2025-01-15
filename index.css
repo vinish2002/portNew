@@ -30,6 +30,10 @@ html {
   }
 }
 
+:root {
+  --txt-white: #fff;
+}
+
 body {
   box-sizing: border-box;
   position: relative;
