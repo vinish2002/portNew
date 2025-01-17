@@ -428,6 +428,7 @@ textarea {
   letter-spacing: 1px;
 }
 
+.header__logo-sub-mid,
 .header__logo-sub-short {
   display: none;
 }
