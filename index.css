@@ -456,6 +456,15 @@ textarea {
   .header__links {
     display: none;
   }
+
+  .header__logo-sub-short {
+    display: block;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: "Audiowide", sans-serif;
+  }
 }
 
 .header__link {
