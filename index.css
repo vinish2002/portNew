@@ -510,8 +510,9 @@ textarea {
   opacity: 0;
 
   background: #000000d5;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(100px);
 
+  /* background-color: #ffffff7e; */
   transition: all 0.3s;
 }
 
