@@ -457,6 +457,10 @@ textarea {
     display: none;
   }
 
+  .header__logo-sub-mid {
+    display: none;
+  }
+
   .header__logo-sub-short {
     display: block;
     font-size: 1.8rem;
