@@ -438,7 +438,7 @@ textarea {
     display: none;
   }
 
-  .header__logo-sub-short {
+  .header__logo-sub-mid {
     display: block;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -478,6 +478,8 @@ textarea {
     padding: 3rem 1.8rem;
     font-size: 1.5rem;
   }
+
+  .header__logo-sub-mid {}
 }
 
 .header__main-ham-menu-cont {
