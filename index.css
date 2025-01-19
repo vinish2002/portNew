@@ -485,8 +485,9 @@ textarea {
 
 .header__link:hover {
   color: #000;
-  background-color: rgba(0, 255, 251, 0.43);
+  /* background-color: rgba(0, 255, 251, 0.43); */
   border-radius: 20px;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 251, 0.43));
 }
 
 @media only screen and (max-width: 56.25em) {
