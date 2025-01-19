@@ -486,7 +486,7 @@ textarea {
 .header__link:hover {
   color: #000;
   /* background-color: rgba(0, 255, 251, 0.43); */
-  border-radius: 20px;
+  /* border-radius: 20px; */
   filter: drop-shadow(0 0 10px rgb(0, 255, 251));
 }
 
