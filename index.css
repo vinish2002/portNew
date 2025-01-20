@@ -648,6 +648,8 @@ textarea {
   border: 1px solid rgb(82, 82, 82);
 }
 
+.btn-hero {}
+
 .text-social {
   display: none;
 }
