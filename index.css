@@ -287,7 +287,11 @@ textarea {
 .btn--bg {
   padding: 1.5rem 8rem;
   font-size: 2rem;
+  background: rgb(128, 0, 255);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.403));
+  box-shadow: rgba(255, 255, 255, 0.403) 0px 7px 29px 0px;
 }
+
 
 .btn--med {
   padding: 1.5rem 5rem;
