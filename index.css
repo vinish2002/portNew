@@ -337,12 +337,12 @@ textarea {
   text-align: center;
   width: 100%;
   line-height: 1.6;
-  filter: drop-shadow(0 0 3px rgb(0, 0, 0));
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0));
 }
 
 .colOr {
   color: rgb(0, 255, 251);
-  filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+  filter: drop-shadow(0 0 8px rgb(0, 0, 0));
   font-size: 2.4rem;
 }
 
