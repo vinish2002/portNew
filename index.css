@@ -133,9 +133,10 @@ textarea {
   display: none;
 }
 
-/* .hp-bg {
-  box-shadow: -5px 0px 29px 5px #050736;
-} */
+.hp-bg {
+  /* box-shadow: -5px 0px 29px 5px #050736; */
+  filter: drop-shadow(0 0 8px rgb(0, 0, 0));
+}
 
 @media only screen and (max-width: 56.25em) {
   .heading-primary {
