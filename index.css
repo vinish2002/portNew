@@ -370,6 +370,7 @@ textarea {
 
   background-color: #ffffff37;
   backdrop-filter: blur(10px);
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0));
   z-index: 10;
 }
 
