@@ -709,9 +709,13 @@ textarea {
     margin: auto;
     background: transparent;
     border: none;
-    /* border-left: 5px solid rgba(255, 255, 255, 0.755); */
     background-color: rgba(255, 255, 255, 0.264);
-    /* box-shadow: -5px 0px 29px 5px #050736; */
+    /* 
+    border-left: 5px solid rgba(255, 255, 255, 0.755);
+     */
+    /* 
+    box-shadow: -5px 0px 29px 5px #050736;
+     */
   }
 
   .home-hero__social-icon {
