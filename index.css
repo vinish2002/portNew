@@ -998,6 +998,10 @@ textarea {
   margin-bottom: 20px;
 }
 
+.p-style {
+  color: rgb(0, 255, 251);
+}
+
 @media only screen and (max-width: 56.25em) {
 
   .project {
