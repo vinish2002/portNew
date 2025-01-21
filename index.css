@@ -967,6 +967,7 @@ textarea {
   overflow: hidden;
   width: 350px;
   transition: transform 0.3s;
+  filter: drop-shadow(0 0 50px rgb(0, 0, 0));
 }
 
 .project:hover {
