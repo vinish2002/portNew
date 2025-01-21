@@ -1135,6 +1135,7 @@ textarea {
   height: 100%;
   backdrop-filter: blur(10px);
   transition: 400ms;
+  border-radius: 0;
 }
 
 .cards .card p.second-text {
