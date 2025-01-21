@@ -1000,6 +1000,7 @@ textarea {
 
 .p-style {
   color: rgb(0, 255, 251);
+  filter: drop-shadow(0 0 50px rgb(0, 0, 0));
 }
 
 @media only screen and (max-width: 56.25em) {
