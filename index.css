@@ -607,13 +607,7 @@ textarea {
   min-height: 85rem;
   max-height: 120rem;
   position: relative;
-  /* background-color: #050736;
-  background-image: radial-gradient(at 12% 26%, #0036C9 0px, transparent 50%),
-    radial-gradient(at 48% 55%, #373F51 0px, transparent 50%),
-    radial-gradient(at 28% 95%, #008DD5 0px, transparent 50%),
-    radial-gradient(at 42% 60%, #0600C2 0px, transparent 50%),
-    radial-gradient(at 62% 19%, #0036C9 0px, transparent 50%),
-    radial-gradient(at 79% 79%, #008DD5 0px, transparent 50%); */
+
   /* background-color: #050736;
   background-image: radial-gradient(at 79% 79%, #008DD5 0px, transparent 50%),
     radial-gradient(at 62% 19%, #0036C9 0px, transparent 50%),
