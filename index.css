@@ -974,6 +974,7 @@ textarea {
 
 .project:hover {
   transform: translateY(-20px);
+  /* box-shadow: 0 15px 30px rgba(115, 115, 115, 0.841); */
 }
 
 .project img {
