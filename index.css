@@ -515,6 +515,7 @@ textarea {
 .header__link:hover {
   font-weight: 800;
   color: #000;
+  filter: drop-shadow(0 0 10px rgb(0, 255, 251));
   /* background-color: rgba(0, 255, 251, 0.43);
   border-radius: 20px; */
 }
