@@ -186,15 +186,21 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 75em) {
+    .hero-section {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
 
     .hero-section {
         display: grid;
     }
 
-    .text-section,
+    /* .text-section,
     .image-section {
         flex: 100%;
         order: initial;
-    }
+    } */
 }
