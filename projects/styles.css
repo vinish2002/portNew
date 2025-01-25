@@ -99,6 +99,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .content {
@@ -131,6 +132,8 @@ button {
 }
 
 .hero-section {
+    font-size: 1rem;
+    letter-spacing: 2px;
     padding-top: 170px;
     color: #fff;
     height: 100%;
