@@ -132,7 +132,7 @@ button {
 }
 
 .hero-section {
-    padding-top: 170px;
+    padding: 170px 100px 0 100px;
     height: 100%;
     min-height: 85rem;
     max-height: 120rem;
@@ -142,7 +142,7 @@ button {
 }
 
 .textCnt-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 2px;
     text-align: left;
 }
