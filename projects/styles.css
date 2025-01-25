@@ -131,6 +131,7 @@ button {
 }
 
 .hero-section {
+    padding-top: 170px;
     color: #fff;
     height: 100%;
     min-height: 85rem;
