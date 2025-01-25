@@ -125,4 +125,9 @@ button {
     font-family: "Audiowide", sans-serif;
 }
 
-.hero-section {}
+.hero-section {
+    color: #fff;
+    height: 100%;
+    min-height: 85rem;
+    max-height: 120rem;
+}
