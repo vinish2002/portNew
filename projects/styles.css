@@ -96,6 +96,10 @@ button {
     cursor: pointer;
 }
 
+.content {
+    width: 50%;
+}
+
 /*****************************************Header Styling*****************************************/
 .header {
     position: fixed;
