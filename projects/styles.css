@@ -197,11 +197,13 @@ button {
 
     .hero-section {
         display: grid;
+        margin: 0;
+        padding: 0;
     }
 
-    /* .text-section,
+    .text-section,
     .image-section {
-        flex: 100%;
+        width: 100%;
         order: initial;
-    } */
+    }
 }
