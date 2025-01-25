@@ -1,3 +1,72 @@
+/* @import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+
+    background-color: #050736;
+    background-image: radial-gradient(at 12% 26%, rgb(10, 27, 80) 0px, transparent 50%),
+        radial-gradient(at 48% 55%, hsla(200, 78%, 30%, 1) 0px, transparent 50%),
+        radial-gradient(at 28% 95%, hsla(220, 65%, 30%, 1) 0px, transparent 50%),
+        radial-gradient(at 42% 60%, hsla(190, 70%, 30%, 1) 0px, transparent 50%),
+        radial-gradient(at 62% 19%, hsla(240, 81%, 30%, 1) 0px, transparent 50%),
+        radial-gradient(at 79% 79%, hsla(210, 71%, 30%, 1) 0px, transparent 50%);
+}
+
+header {
+
+backdrop-filter: blur(10px);
+color: #fff;
+background-color: rgba(255, 255, 255, 0.078);
+box-shadow: -5px 0px 29px 5px #050736;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.text-section,
+.image-section {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-section {
+    flex: 1;
+    order: 2;
+}
+
+.image-section {
+    flex: 1;
+    order: 1;
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .text-section,
+    .image-section {
+        flex: 100%;
+        order: initial;
+    }
+}
+
+*/
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 
 * {
@@ -36,7 +105,6 @@ body {
     line-height: 1.5;
     font-family: sans-serif;
     overflow-x: hidden;
-    /* overflow-y: scroll; */
 
     font-family: "Source Sans Pro", sans-serif;
 
@@ -111,7 +179,7 @@ button {
 
     background-color: rgba(255, 255, 255, 0.078);
     box-shadow: -5px 0px 29px 5px #050736;
-    /* z-index: 10; */
+    z-index: 1000;
 }
 
 .header .title {
@@ -142,13 +210,12 @@ button {
 
 .text-section,
 .image-section {
+    width: 50%;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .text-section {
-    /* flex: 1;
-    order: 2; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -156,8 +223,6 @@ button {
 }
 
 .image-section {
-    /* flex: 1;
-    order: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,5 +255,10 @@ button {
 @media only screen and (max-width: 75em) {
     .hero-section {
         display: grid;
+    }
+
+    .text-section,
+    .image-section {
+        width: 100%;
     }
 }
