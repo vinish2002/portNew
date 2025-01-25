@@ -139,6 +139,7 @@ button {
     min-height: 85rem;
     max-height: 120rem;
 
+    text-align: left;
     color: #fff;
     font-family: "Audiowide", sans-serif;
 }
