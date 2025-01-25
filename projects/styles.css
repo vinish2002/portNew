@@ -210,19 +210,21 @@ button {
 
 .text-section,
 .image-section {
-    width: 50%;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .text-section {
+    width: 60%;
     display: grid;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
 }
 
 .image-section {
+
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
