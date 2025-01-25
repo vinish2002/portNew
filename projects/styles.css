@@ -192,18 +192,3 @@ button {
         display: grid;
     }
 }
-
-@media only screen and (max-width: 56.25em) {
-
-    .hero-section {
-        display: grid;
-        margin: 0;
-        padding: 0;
-    }
-
-    .text-section,
-    .image-section {
-        width: 100%;
-        order: initial;
-    }
-}
