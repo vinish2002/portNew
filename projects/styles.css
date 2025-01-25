@@ -86,3 +86,12 @@ body {
     padding: 1.5rem 5rem;
     font-size: 1.6rem;
 }
+
+button:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
