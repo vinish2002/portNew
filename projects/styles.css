@@ -114,3 +114,7 @@ button {
     box-shadow: -5px 0px 29px 5px #050736;
     z-index: 10;
 }
+
+.header .title {
+    color: #fff;
+}
