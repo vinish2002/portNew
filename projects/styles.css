@@ -146,8 +146,8 @@ button {
 }
 
 .text-section {
-    flex: 1;
-    order: 2;
+    /* flex: 1;
+    order: 2; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -155,8 +155,8 @@ button {
 }
 
 .image-section {
-    flex: 1;
-    order: 1;
+    /* flex: 1;
+    order: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +187,10 @@ button {
 }
 
 @media (max-width: 768px) {
+
+    .hero-section {
+        display: grid;
+    }
 
     .text-section,
     .image-section {
