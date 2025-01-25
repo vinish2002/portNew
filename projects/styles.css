@@ -95,13 +95,6 @@ button {
     cursor: pointer;
 }
 
-.centerCnt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .content {
     width: 50%;
 }
@@ -138,6 +131,9 @@ button {
     max-height: 120rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     color: #fff;
     font-family: "Audiowide", sans-serif;
@@ -152,6 +148,10 @@ button {
 .text-section {
     flex: 1;
     order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .image-section {
