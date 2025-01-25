@@ -99,8 +99,11 @@ button {
 /*****************************************Header Styling*****************************************/
 .header {
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     width: 100%;
-
     border-bottom: 1px solid #ffffff8d;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
