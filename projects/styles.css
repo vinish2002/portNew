@@ -170,6 +170,7 @@ button {
 }
 
 .textCnt-title {
+    margin-bottom: 10px;
     font-size: 3rem;
     letter-spacing: 2px;
     text-align: left;
@@ -182,6 +183,7 @@ button {
     letter-spacing: 1px;
     text-align: justify;
     font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 768px) {
