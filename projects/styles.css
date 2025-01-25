@@ -166,6 +166,7 @@ button {
 .image-section img {
     max-width: 90%;
     height: auto;
+    border-radius: 20px;
 }
 
 .textCnt-title {
