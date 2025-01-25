@@ -95,6 +95,12 @@ button {
     cursor: pointer;
 }
 
+.centerCnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
     width: 50%;
 }
@@ -103,10 +109,6 @@ button {
 .header {
     position: fixed;
     width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     border-radius: 30px;
     margin-top: 5px;
