@@ -118,6 +118,7 @@ button {
 .header .title {
     margin: 10px;
     color: #fff;
+    /* font-weight: 5000; */
     letter-spacing: 2px;
     font-family: "Audiowide", sans-serif;
 }
