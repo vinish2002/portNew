@@ -177,7 +177,12 @@ button {
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.742);
 }
 
-.p-txt {}
+.p-txt {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-weight: 500;
+}
 
 @media (max-width: 768px) {
 
