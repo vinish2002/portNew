@@ -230,6 +230,8 @@ button {
 }
 
 .image-section img {
+    height: 400px;
+    width: 550px;
     max-width: 90%;
     height: auto;
     border-radius: 20px;
